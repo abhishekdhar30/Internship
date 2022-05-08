@@ -1,0 +1,29 @@
+.contact-cover-img {
+    object-fit: cover;
+    width: 100%;
+    height: 200px;
+}
+/* For displaying error and success messages */
+.alert-messages .success {
+    background-color: #2FB986;
+    color: #ffffff;
+    padding: 0.75rem 1rem;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+}
+
+.alert-messages .fail {
+    background-color: #f44336;
+    color: #ffffff;
+    padding: 0.75rem 1rem;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+}
+
+.alert-messages .closebtn {
+    cursor: pointer;
+    padding-right: 8px;
+    font-size: 16px !important;
+    font-style: normal !important;
+    color: #ffffff !important;
+}
